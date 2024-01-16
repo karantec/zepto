@@ -1,10 +1,9 @@
 
-import PascalTra from "./PascalTraingle.jsx/PascalTra"
-
+import InputBox from './Components/InputBox'
 const App = () => {
   return (
-    <div>
-      <PascalTra/>
+    <div className="container mx-auto mt-8">
+    <InputBox/>
     </div>
   )
 }
