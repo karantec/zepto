@@ -119,7 +119,7 @@ const InputBox = () => {
         onChange={handleInputChange}
         onKeyDown={handleInputKeyDown}
         onClick={handleInputClick}
-        placeholder="Type here..."
+        placeholder="Pick User"
         className="border-none border-b-2 border-gray-400 w-full py-1 focus:outline-none focus:border-blue-500"
       />
       {/* Display the filtered items as a list */}
